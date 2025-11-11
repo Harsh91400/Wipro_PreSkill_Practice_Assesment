@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spring Flowers School - Student Management</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo-title">
+    <img src="https://cdn-icons-png.flaticon.com/512/1048/1048949.png" alt="School Logo">
+    <h2>Spring Flowers School</h2>
+  </div>
+  <ul class="menu-bar">
+    <li><a href="#">Home</a></li>
+    <li><a href="#profile">Student Profile</a></li>
+    <li><a href="#timetable">Time Table</a></li>
+  </ul>
+</header>
+
+<section class="main">
+  <center>
+    <h1>Welcome </h1>
+    <h1>To</h1>
+    <h1>Spring Flowers School</h1>
+  <a href="#profile" class="main-btn">Student Profile</a>
+  </center>
+</section>
+
+<section id="profile" class="profile-section">
+  <h2>Student Profile</h2>
+
+  <div class="studentCard">
+    <img src="data:image/png;base64,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" alt="Student">
+    <h3>Harshit Tripathi</h3>
+    <p>Class: 10 | Roll No: 01</p>
+    <p>Email: harshit123@gmail.com</p>
+    <button class="profile-btn">View Details</button>
+  </div>
+</section>
+
+<section id="timetable">
+  <h2>Your Weekly Time Table</h2>
+  <table class="timeTable">
+    <tr>
+      <th>Day</th>
+      <th>8:00 - 9:00</th>
+      <th>9:00 - 10:00</th>
+      <th>10:00 - 11:00</th>
+      <th>11:00 - 12:00</th>
+      <th>12:00 - 1:00</th>
+    </tr>
+
+    <tr>
+      <td>Monday</td>
+      <td>Hindi</td>
+      <td>English</td>
+      <td>Free Time</td>
+      <td>Math</td>
+      <td>History</td>
+    </tr>
+    <tr>
+      <td>Tuesday</td>
+      <td>PT</td>
+      <td>English</td>
+      <td>Free Time</td>
+      <td>Computer</td>
+      <td>Library</td>
+    </tr>
+    <tr>
+      <td>Wednesday</td>
+      <td>Math</td>
+      <td>Hindi</td>
+      <td>Free Time</td>
+      <td>Science</td>
+      <td>History</td>
+    </tr>
+    <tr>
+      <td>Thursday</td>
+      <td>English</td>
+      <td>Hind</td>
+      <td>Free Time</td>
+      <td>Math</td>
+      <td>Science</td>
+    </tr>
+    <tr>
+      <td>Friday</td>
+      <td>Computer</td>
+      <td>English</td>
+      <td>Free Time</td>
+      <td>Math</td>
+      <td>Art</td>
+    </tr>
+
+  </table>
+</section>
+
+
+<footer>
+  Spring Flowers School
+</footer>
+
+</body>
+</html>

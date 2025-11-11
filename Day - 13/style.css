@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(34, 196, 147);
+  /* color: black; */
+}
+
+
+.navbar {
+  background: black;
+  color: white;
+  padding: 11px 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+}
+
+.logo-title img {
+  width: 45px;
+  margin-right: 5px;
+}
+
+.menu-bar {
+  list-style: none;
+  
+  display: flex;
+  gap: 15px;
+}
+
+.menu-bar a {
+  color: rgb(85, 204, 204);
+  background: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.main {
+  height: 55vh;
+  color: pink;
+  
+  text-align: center;
+  background: linear-gradient(rgba(0,0,70,0.6), rgba(0,0,120,0.6)),
+              url('https://images.unsplash.com/photo-1535909339361-9b85d2b87f21') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 18px;
+  background: white;
+  color: #3366cc;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+
+.profile-section {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.studentCard {
+  color: black;
+  background: rgb(85, 204, 204);
+  width: 260px;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 12px;
+  transition: 0.3s ease;
+}
+
+.studentCard img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.studentCard:hover {
+  transform: scale(1.05);
+}
+
+.profile-btn {
+  margin-top: 8px;
+  background: #3366cc;
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+#timetable {
+  text-align: center;
+  padding: 30px 0;
+  color: black;
+}
+
+.timeTable {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+  background: white;
+}
+
+.timeTable th, .timeTable td {
+  border: 2px solid black;
+  padding: 8px;
+}
+
+.timeTable th {
+  background: black;
+  color: aqua;
+  font-weight: bold;
+}
+
+.timeTable tr:hover {
+  background: rgb(85, 204, 204);
+}
+
+
+footer {
+  background: #07080b;
+  color: aqua;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
